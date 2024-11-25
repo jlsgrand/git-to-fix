@@ -1,0 +1,25 @@
+:root {
+  --rich-black: #000814ff;
+  --oxford-blue: #001d3dff;
+  --yale-blue: #003566ff;
+  --mikado-yellow: #ffc300ff;
+  --mikado-yellow-50: #ffc300aa;
+  --gold: #ffd60aff;
+  --gold-50: #ffd60aaa;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 0;
+  color: var(--oxford-blue);
+  background-color: var(--mikado-yellow-50);
+  padding: 1.5rem 2rem;
+  border-radius: 0 0 1rem 1rem;
+}
